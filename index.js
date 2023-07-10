@@ -4,9 +4,7 @@
  * @param {function} callback
  * @return {number | string}
  */
-const checkNumbersAndExecuteOperation = (a, b, callback) => {
-  
-};
+const checkNumbersAndExecuteOperation = (a, b, callback) => {};
 
 /**
  * @param {number} a
@@ -15,7 +13,7 @@ const checkNumbersAndExecuteOperation = (a, b, callback) => {
  */
 // function should return sum of two numbers
 const sum = (a, b) => {
-  return a+b;
+  return a + b;
 };
 
 /**
@@ -25,7 +23,7 @@ const sum = (a, b) => {
  */
 // function should return result of subtraction of two numbers
 const subtract = (a, b) => {
-  return a-b;
+  return a - b;
 };
 
 /**
@@ -35,7 +33,7 @@ const subtract = (a, b) => {
  */
 // function should return result of multiplication of two numbers
 const multiply = (a, b) => {
-  return a*b;
+  return a * b;
 };
 
 /**
@@ -45,7 +43,7 @@ const multiply = (a, b) => {
  */
 // function should return result of division of two numbers
 const divide = (a, b) => {
-  return a/b;
+  return a / b;
 };
 
 /**
@@ -55,7 +53,7 @@ const divide = (a, b) => {
  */
 // function should return result of modulus of two numbers
 const getModulus = (a, b) => {
-  return a%b;
+  return a % b;
 };
 
 /**
@@ -64,9 +62,9 @@ const getModulus = (a, b) => {
  */
 // Create function that returns another function which receives messages param and returns combination of messageType with message
 const formatLogger = (messageType) => {
-  return function showMessage (message) {
+  return function showMessage(message) {
     return `${messageType}: ${message}`;
-  }
+  };
 };
 
 /**
@@ -77,7 +75,7 @@ const formatLogger = (messageType) => {
  * @return {number | string}
  */
 // Create function that receives two numbers, and two callbacks
-  // It should check if two numbers are real numbers and return result of the second callback. In case it's not a numbers - it should return error message with firstCallback
+// It should check if two numbers are real numbers and return result of the second callback. In case it's not a numbers - it should return error message with firstCallback
 const calculateResult = (num1, num2, callback1, callback2) => {
   // write your code here
 };
