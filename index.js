@@ -64,7 +64,9 @@ const getModulus = (a, b) => {
  */
 // Create function that returns another function which receives messages param and returns combination of messageType with message
 const formatLogger = (messageType) => {
-  
+  return function showMessage (message) {
+    return `${messageType}: ${message}`;
+  }
 };
 
 /**
